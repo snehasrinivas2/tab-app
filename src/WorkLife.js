@@ -26,20 +26,20 @@ const WorkLife = () => {
         </div>
 
      
-        <div className='flex-1 relative'>
-        <div className='flex flex-col'>
+        <div className='content flex-1 relative'>
+        <div className='inside content absolute top-10'>
         <img
-          className="flex-1"
+          className="h-auto"
           src={peopleLoveUs}
           alt="people-love-us"
         />
-         <p className="flex-1">
+         <p className="text-3xl font-bold text-center mt-6">
             Great Place To Work Certified
           </p>
-          <p className="flex-1">
+          <p className=" font-semibold text-lg text-center mt-4">
             We just received our 9<sup>th</sup> year in a row
           </p>
-          <p className="flex-1">
+          <p className="font-normal text-xl text-center mt-4 italic">
             for work environment and facilities
           </p>
 
